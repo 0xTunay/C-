@@ -1,8 +1,14 @@
 #include <stdio.h>
-void main()
+int main(void)
 {
-    int number;
-    number = 2;
-        printf(" number = %d \n", number);
+    int num_first;
+    num_first = 4;
 
+    int x = 10, y = 10, res;
+    
+
+    res= x * y
+    x *= 5 // умножение x на 5
+    printf("hello wrold\n");
+    return 0;
 }
