@@ -33,7 +33,7 @@ int main(void)
     // unsigned long long a5 = 6;
     // num_first = 4;
 
-    // int x = 10, y = 10, res;
+    // int x = 11, y = 10, res;
     // x *= 5; // умножение x на 5
 
     // float a6 = 4.5f;
