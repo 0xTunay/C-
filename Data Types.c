@@ -2,7 +2,7 @@
 #include <stdbool.h> // on bool 
 int main(void)
 {
-    short a = 0;
+    short a = 3330;
     a = 5; 
     float x, y, res;
 
