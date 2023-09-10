@@ -32,6 +32,6 @@ int main (void)
      float a = 10;
      float b = 4;
      float c = 10 / 4;
-     printf("c = %.3f\n",c);
+     printf("c = %.1f\n",c);
      return 0;       
 }
