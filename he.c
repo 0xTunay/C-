@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-    float res;
-    int x = 5;
-    int y = 2;
-    res = (float)x / (float)y;
-    printf("res = %.2f\n",res);
+    for (int i = 0; i < 9; i++){
+        printf("%d * %d = %d\n",i,i, i*i);
+    }
     return 0;
 }
