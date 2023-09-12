@@ -2,7 +2,7 @@
 int main(void)
 {
 //    for(int i = 0; i < 6; i++) {
-//        printf("hello work \n");
+//        printf("hello work \n"c);
 //    }
 //
     int y = 1;
