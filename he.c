@@ -1,12 +1,17 @@
 #include <stdio.h>
 int main(void)
 {
-    int num = 116;
-    int *p_num = &num;
-    printf("%d\n",*p_num);
+    int x = 10;
+    char c = 'g';
+    float y = 2.40;
 
-    *p_num = 117;
+    void *pointer;
+    pointer = &x;
+    printf("x = %.2d\n",*(int *)pointer);
+    pointer = &c;
+    printf("x = %c\n",*(char *)pointer);
+    pointer = &y;
+    printf("x = %.2f\n",*(float *)pointer);
 
-    printf("%d\n",*p_num);
     return 0;
 }
