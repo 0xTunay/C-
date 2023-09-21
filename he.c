@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(void)
 {
-    int x = 10;
-    char c = 'g';
-    float y = 2.40;
+    int x = 212;
+    char y = 'Hello wrold';
+    float z = 3.14;
 
-    void *pointer;
-    pointer = &x;
-    printf("x = %.2d\n",*(int *)pointer);
-    pointer = &c;
-    printf("x = %c\n",*(char *)pointer);
-    pointer = &y;
-    printf("x = %.2f\n",*(float *)pointer);
+    void *point;
 
+    point = &x;
+    printf("%d\n", *(int *)point);
+    point = &y;
+    printf("%c\n", *(char *)point);
+    point = &z;
+    printf("%.2f\n",*(float*)point);
     return 0;
 }
