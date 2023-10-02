@@ -1,12 +1,10 @@
-#include <string.h>
-void hello()
-{
-    printf("hello\n");
-}
+#include <stdio.h>
 
-int main(void)
+int number(const int x)
 {
-    hello();
-    hello();
-    return 0;
+    printf("%d",x*2);
+}
+int main (void)
+{
+    number(10);
 }
