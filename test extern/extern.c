@@ -1,2 +1,2 @@
-int global_var = 5
+int global_var = 5;
 

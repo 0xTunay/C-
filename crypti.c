@@ -1,11 +1,12 @@
 #include <string.h>
 
 int main(void){
-    char alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    char alphabetSmall = 'abcdefghijklmnopqrstuvwxyz';
+    const char alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const char alphabetSmall = 'abcdefghijklmnopqrstuvwxyz';
 
 
     int numAlph[0];
     int numAlphSmall[0];
 
+    for(int i=0;i<alphabet;i++)
 }
