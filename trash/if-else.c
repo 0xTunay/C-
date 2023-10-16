@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (void)
 {
-    extern int global_c = 5;
+     int x = 54;
 
     switch (x) {
         case 3:
