@@ -4,7 +4,7 @@ char message[] = "Hello METANIT.COM";
  
 void print()
 {
-    printf("Hello from extern function\n");
+    printf("Hello from extern functasddasasdasdadsion\n");
 }
 int sum(int x, int y)
 {
