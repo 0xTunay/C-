@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc fucn.c
+gcc calc.c
 ./a.out
