@@ -44,7 +44,7 @@ int leght = sizeof(operation)/sizeof(operation[0]);
 
 for(int i=0; i < leght; i++)
 {
-        operation[i](a, b);    // вызов функции по уыыыказателю2222
+        operation[i](a, b);    // вызов функции по указателю
 }
 
 }
