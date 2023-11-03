@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc calc.c
+gcc program.c
 ./a.out
