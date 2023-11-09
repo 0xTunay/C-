@@ -17,7 +17,11 @@
 //     massage = hello; // указываю указательно на функцию hello
 //     massage(); // вызываю функцию
 //     massage = goodbye; // указывает на функцию goodbuy
+<<<<<<< HEAD
 //     massage(); // вызываем функцию
+=======
+//     massage(); // вgfpogpopogopdpospojsgызываем функцию
+>>>>>>> a663a1c (kill trash)
 //     return 0;
 // }
 
@@ -47,4 +51,8 @@ for(int i=0; i < leght; i++)
         operation[i](a, b);    // вызов функции по уыыыказателю2222
 }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a663a1c (kill trash)
