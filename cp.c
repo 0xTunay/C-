@@ -4,7 +4,7 @@
 #define ENGLAND 1
 #define FRANCE 2
 
-#define ACTIVITY_COUNTRY ENGLAND
+#define ACTIVITY_COUNTRY US
 
 #if ACTIVITY_COUNTRY == US
     char curr[] = "dollar";
