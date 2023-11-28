@@ -12,7 +12,7 @@
     char curr[] = "pound";
 #elif ACTIVITY_COUNTRY == FRANCE
     char curr[] = "franc";
-#endif    
+#endif
 int main(void)
 {
     printf("curr = %s\n", curr);
