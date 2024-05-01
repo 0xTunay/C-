@@ -12,6 +12,6 @@ int main()
     prt_v->y = 2.3;
 
     printf("x = %2.f, y = %2.f", prt_v->x,prt_v->y);
-
+    
     free(prt_v);
 }
