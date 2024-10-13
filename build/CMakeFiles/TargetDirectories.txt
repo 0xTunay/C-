@@ -1,0 +1,3 @@
+/home/tunay/C-/build/CMakeFiles/USA.dir
+/home/tunay/C-/build/CMakeFiles/edit_cache.dir
+/home/tunay/C-/build/CMakeFiles/rebuild_cache.dir

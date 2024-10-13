@@ -36,7 +36,7 @@ void LineSearch(int arr[],int length,int target)
 {
     for(int i = 0; i < length; i++){
         if(arr[i] == target)
-            std::cout << "find!";
+            std::cout << "find!" << std::endl;
     }
 }
 int BinarySearch(int arr[],int length, int target)
@@ -72,7 +72,7 @@ int main(void)
 
     for(int i = 0; i <length;i++)
     {
-        std::cout << " " << arr1[i];
+        std::cout << " " << arr1[i] << std::endl;
     }
 
     LineSearch(arr1,length,target);
@@ -82,7 +82,10 @@ int main(void)
     int arr2[] = {0, 9, 5, 6, 4, 2, 3, 1, 89, 8, 9, 14, 31, 32, 56, 14};
     int length2 =  sizeof(arr1) / sizeof(*arr1);
 
-    BubleSortPartTwo(arr2,length2);
+    for(int i = 0; i <length;i++)
+    {
+        std::cout << " " << arr2[i] << std::endl;
+    }
     BinarySearch(arr2,length2,target);
     std::cout << "index find: " << BinarySearch(arr2,length2,target) << std::endl;
     return 0;

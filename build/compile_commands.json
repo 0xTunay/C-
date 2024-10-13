@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/tunay/C-/build",
+  "command": "/usr/bin/gcc -g -std=gnu99 -o CMakeFiles/USA.dir/struct.c.o -c /home/tunay/C-/struct.c",
+  "file": "/home/tunay/C-/struct.c",
+  "output": "CMakeFiles/USA.dir/struct.c.o"
+}
+]
